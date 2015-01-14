@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
 	var $threelinesDemo = $('#threelines-demo'),
-		$threelines = $threelinesDemo.find('.threelines'),
+		$threelines = $threelinesDemo.find('.examples .threelines'),
 		$frameButtons = $threelinesDemo.find('button');
 
 	$frameButtons.click(function (event) {

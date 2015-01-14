@@ -6,7 +6,7 @@ html
 	line-height: 18px
 
 body
-	font-family: helvetica, arial, sans-serif
+	font-family: Inconsolata, monospace
 	background-color: $color-white
 	color: $color-slate
 	text-align: center
@@ -16,6 +16,21 @@ body
 	margin: 0 auto
 
 h1
+	display: inline-block
 	margin-top: 2rem
-	font-size: 4rem
-	line-height: 4rem
+	vertical-align: bottom
+	line-height: 3rem
+	font-size: 3rem
+
+h2
+	display: inline-block
+	vertical-align: bottom
+	line-height: 2rem
+	font-size: 1.3rem
+	text-transform: lowercase
+
+	&:before
+		content: 'is '
+
+a
+	color: $color-violet
