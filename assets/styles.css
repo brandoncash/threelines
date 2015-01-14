@@ -84,12 +84,6 @@ body {
 }
 
 /* line 14, sass/_global.sass */
-#page-container {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-/* line 18, sass/_global.sass */
 h1 {
   display: inline-block;
   margin-top: 2rem;
@@ -98,7 +92,7 @@ h1 {
   font-size: 3rem;
 }
 
-/* line 25, sass/_global.sass */
+/* line 21, sass/_global.sass */
 h2 {
   display: inline-block;
   vertical-align: bottom;
@@ -106,14 +100,19 @@ h2 {
   font-size: 1.3rem;
   text-transform: lowercase;
 }
-/* line 32, sass/_global.sass */
+/* line 28, sass/_global.sass */
 h2:before {
   content: "is ";
 }
 
-/* line 35, sass/_global.sass */
+/* line 31, sass/_global.sass */
 a {
   color: #6c71c4;
+}
+
+/* line 35, sass/_global.sass */
+.threelines .line {
+  background-color: #2f2f3f;
 }
 
 /* line 1, sass/_demo.sass */
@@ -130,43 +129,49 @@ a {
 #threelines-demo:after {
   clear: both;
 }
-/* line 7, sass/_demo.sass */
+/* line 5, sass/_demo.sass */
+#threelines-demo .examples {
+  background-color: #dddddd;
+  padding: 2rem 0;
+}
+/* line 9, sass/_demo.sass */
 #threelines-demo .examples .col {
   display: inline-block;
   vertical-align: top;
 }
-/* line 11, sass/_demo.sass */
+/* line 13, sass/_demo.sass */
 #threelines-demo .examples .threelines {
   margin: 1rem;
   border: 4px solid #6c71c4;
   border-radius: 4px;
+  background-color: #efefef;
 }
-/* line 16, sass/_demo.sass */
+/* line 19, sass/_demo.sass */
 #threelines-demo .examples .threelines.big {
   width: 20rem;
   height: 20rem;
 }
-/* line 20, sass/_demo.sass */
+/* line 23, sass/_demo.sass */
 #threelines-demo .examples .threelines.medium {
   width: 15rem;
   height: 15rem;
 }
-/* line 24, sass/_demo.sass */
+/* line 27, sass/_demo.sass */
 #threelines-demo .examples .threelines.small {
   width: 10rem;
   height: 10rem;
 }
-/* line 28, sass/_demo.sass */
+/* line 31, sass/_demo.sass */
 #threelines-demo .examples .threelines.micro {
   width: 5rem;
   height: 5rem;
 }
-/* line 32, sass/_demo.sass */
+/* line 35, sass/_demo.sass */
 #threelines-demo .examples .threelines.icon {
   width: 2rem;
   height: 2rem;
 }
-/* line 38, sass/_demo.sass */
+/* line 41, sass/_demo.sass */
 #threelines-demo .buttons button {
   position: relative;
   display: inline-block;
@@ -178,11 +183,11 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 49, sass/_demo.sass */
+/* line 52, sass/_demo.sass */
 #threelines-demo .buttons button:hover {
   border-color: #3a3f90;
 }
-/* line 52, sass/_demo.sass */
+/* line 55, sass/_demo.sass */
 #threelines-demo .buttons p {
   margin-top: 1rem;
   text-transform: lowercase;
