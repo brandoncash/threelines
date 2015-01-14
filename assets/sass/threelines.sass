@@ -1,0 +1,121 @@
+// threelines
+
+$line-color: #2f2f3f
+
+$transition-time: 200ms
+$transition-timer: cubic-bezier(0.17, 0.67, 0.83, 0.67)
+
+
+.threelines
+	position: relative
+	width: 100%
+	height: 100%
+
+	.line
+		position: absolute
+		display: inline-block
+		background-color: $line-color
+		transition: all $transition-time $transition-timer
+		transform-origin: 50% 50%
+		transform: translateX(-50%) translateY(-50%)
+
+	&[data-frame="menu"]
+		.line
+			&:nth-child(1)
+				left: 50%
+				top: 25%
+				width: 80%
+				height: 15%
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 80%
+				height: 15%
+
+			&:nth-child(3)
+				left: 50%
+				top: 75%
+				width: 80%
+				height: 15%
+
+	&[data-frame="close"]
+		.line
+			&:nth-child(1)
+				left: 50%
+				top: 50%
+				width: 100%
+				height: 15%
+				transform: translateX(-50%) translateY(-50%) rotate(45deg)
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 0%
+				height: 0%
+				opacity: 0
+
+			&:nth-child(3)
+				left: 50%
+				top: 50%
+				width: 100%
+				height: 15%
+				transform: translateX(-50%) translateY(-50%) rotate(-45deg)
+
+	&[data-frame~="dots"]
+		.line
+			left: 50%
+			border-radius: 100%
+
+		&[data-frame~="three"]
+			.line
+				width: 10%
+				height: 10%
+
+				&:nth-child(1)
+					top: 25%
+
+				&:nth-child(2)
+					top: 50%
+
+				&:nth-child(3)
+					top: 75%
+
+		&[data-frame~="two"]
+			.line
+				width: 20%
+				height: 20%
+
+				&:nth-child(1)
+					top: 35%
+
+				&:nth-child(2)
+					top: 50%
+					width: 0
+					height: 0
+					opacity: 0
+
+				&:nth-child(3)
+					top: 65%
+
+	&[data-frame="dot"]
+		.line
+			border-radius: 100%
+
+			&:nth-child(1)
+				top: 50%
+				width: 0
+				height: 0
+				opacity: 0
+
+			&:nth-child(2)
+				top: 50%
+				left: 50%
+				width: 30%
+				height: 30%
+
+			&:nth-child(3)
+				top: 50%
+				width: 0
+				height: 0
+				opacity: 0

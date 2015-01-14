@@ -1,0 +1,159 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-sourcemaps-0.12.4.sourcemaps.a4836f1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, sass/_global.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, sass/_global.sass */
+html {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* line 8, sass/_global.sass */
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #efefef;
+  color: #2f2f3f;
+  text-align: center;
+}
+
+/* line 14, sass/_global.sass */
+#page-container {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* line 18, sass/_global.sass */
+h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+/* line 1, sass/_demo.sass */
+#threelines-demo {
+  zoom: 1;
+  margin-top: 2rem;
+}
+/* line 5, sass/_utilities.sass */
+#threelines-demo:before, #threelines-demo:after {
+  content: "";
+  display: table;
+}
+/* line 9, sass/_utilities.sass */
+#threelines-demo:after {
+  clear: both;
+}
+/* line 5, sass/_demo.sass */
+#threelines-demo .col {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 9, sass/_demo.sass */
+#threelines-demo .threelines {
+  margin: 1rem;
+  border: 4px solid #2f2f3f;
+  border-radius: 4px;
+}
+/* line 14, sass/_demo.sass */
+#threelines-demo .threelines.big {
+  width: 20rem;
+  height: 20rem;
+}
+/* line 18, sass/_demo.sass */
+#threelines-demo .threelines.medium {
+  width: 15rem;
+  height: 15rem;
+}
+/* line 22, sass/_demo.sass */
+#threelines-demo .threelines.small {
+  width: 10rem;
+  height: 10rem;
+}
+/* line 26, sass/_demo.sass */
+#threelines-demo .threelines.micro {
+  width: 5rem;
+  height: 5rem;
+}
+/* line 30, sass/_demo.sass */
+#threelines-demo .threelines.icon {
+  width: 2rem;
+  height: 2rem;
+}
+/* line 34, sass/_demo.sass */
+#threelines-demo .buttons {
+  margin-top: 2rem;
+}
+/* line 37, sass/_demo.sass */
+#threelines-demo .buttons button {
+  display: inline-block;
+  width: 4rem;
+  padding: 1rem 0;
+}
+
+/*@ sourceMappingURL=styles.css.map */
