@@ -59,41 +59,40 @@ $transition-timer: cubic-bezier(0.17, 0.67, 0.83, 0.67)
 				height: 15%
 				transform: translateX(-50%) translateY(-50%) rotate(-45deg)
 
-	&[data-frame~="dots"]
+	&[data-frame="three-dots"]
 		.line
 			left: 50%
 			border-radius: 100%
+			width: 10%
+			height: 10%
 
-		&[data-frame~="three"]
-			.line
-				width: 10%
-				height: 10%
+			&:nth-child(1)
+				top: 25%
 
-				&:nth-child(1)
-					top: 25%
+			&:nth-child(2)
+				top: 50%
 
-				&:nth-child(2)
-					top: 50%
+			&:nth-child(3)
+				top: 75%
 
-				&:nth-child(3)
-					top: 75%
+	&[data-frame="two-dots"]
+		.line
+			width: 20%
+			height: 20%
+			left: 50%
+			border-radius: 100%
 
-		&[data-frame~="two"]
-			.line
-				width: 20%
-				height: 20%
+			&:nth-child(1)
+				top: 35%
 
-				&:nth-child(1)
-					top: 35%
+			&:nth-child(2)
+				top: 50%
+				width: 0
+				height: 0
+				opacity: 0
 
-				&:nth-child(2)
-					top: 50%
-					width: 0
-					height: 0
-					opacity: 0
-
-				&:nth-child(3)
-					top: 65%
+			&:nth-child(3)
+				top: 65%
 
 	&[data-frame="dot"]
 		.line

@@ -58,66 +58,65 @@
   transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 /* line 63, sass/threelines.sass */
-.threelines[data-frame~="dots"] .line {
+.threelines[data-frame="three-dots"] .line {
   left: 50%;
   border-radius: 100%;
-}
-/* line 68, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="three"] .line {
   width: 10%;
   height: 10%;
 }
-/* line 72, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="three"] .line:nth-child(1) {
+/* line 69, sass/threelines.sass */
+.threelines[data-frame="three-dots"] .line:nth-child(1) {
   top: 25%;
 }
-/* line 75, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="three"] .line:nth-child(2) {
+/* line 72, sass/threelines.sass */
+.threelines[data-frame="three-dots"] .line:nth-child(2) {
   top: 50%;
 }
-/* line 78, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="three"] .line:nth-child(3) {
+/* line 75, sass/threelines.sass */
+.threelines[data-frame="three-dots"] .line:nth-child(3) {
   top: 75%;
 }
-/* line 82, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="two"] .line {
+/* line 79, sass/threelines.sass */
+.threelines[data-frame="two-dots"] .line {
   width: 20%;
   height: 20%;
+  left: 50%;
+  border-radius: 100%;
 }
-/* line 86, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="two"] .line:nth-child(1) {
+/* line 85, sass/threelines.sass */
+.threelines[data-frame="two-dots"] .line:nth-child(1) {
   top: 35%;
 }
-/* line 89, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="two"] .line:nth-child(2) {
+/* line 88, sass/threelines.sass */
+.threelines[data-frame="two-dots"] .line:nth-child(2) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 95, sass/threelines.sass */
-.threelines[data-frame~="dots"][data-frame~="two"] .line:nth-child(3) {
+/* line 94, sass/threelines.sass */
+.threelines[data-frame="two-dots"] .line:nth-child(3) {
   top: 65%;
 }
-/* line 99, sass/threelines.sass */
+/* line 98, sass/threelines.sass */
 .threelines[data-frame="dot"] .line {
   border-radius: 100%;
 }
-/* line 102, sass/threelines.sass */
+/* line 101, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(1) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 108, sass/threelines.sass */
+/* line 107, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(2) {
   top: 50%;
   left: 50%;
   width: 30%;
   height: 30%;
 }
-/* line 114, sass/threelines.sass */
+/* line 113, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(3) {
   top: 50%;
   width: 0;
