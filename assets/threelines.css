@@ -13,27 +13,52 @@
   transform: translateX(-50%) translateY(-50%);
 }
 /* line 21, sass/threelines.sass */
-.threelines[data-frame="menu"] .line:nth-child(1) {
+.threelines[data-frame="three-bar-horizontal"] .line:nth-child(1) {
   left: 50%;
   top: 25%;
   width: 80%;
   height: 15%;
 }
 /* line 27, sass/threelines.sass */
-.threelines[data-frame="menu"] .line:nth-child(2) {
+.threelines[data-frame="three-bar-horizontal"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
   width: 80%;
   height: 15%;
 }
 /* line 33, sass/threelines.sass */
-.threelines[data-frame="menu"] .line:nth-child(3) {
+.threelines[data-frame="three-bar-horizontal"] .line:nth-child(3) {
   left: 50%;
   top: 75%;
   width: 80%;
   height: 15%;
 }
-/* line 41, sass/threelines.sass */
+/* line 40, sass/threelines.sass */
+.threelines[data-frame="three-bar-vertical"] .line {
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+/* line 42, sass/threelines.sass */
+.threelines[data-frame="three-bar-vertical"] .line:nth-child(1) {
+  left: 75%;
+  top: 50%;
+  width: 80%;
+  height: 15%;
+}
+/* line 48, sass/threelines.sass */
+.threelines[data-frame="three-bar-vertical"] .line:nth-child(2) {
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: 15%;
+}
+/* line 54, sass/threelines.sass */
+.threelines[data-frame="three-bar-vertical"] .line:nth-child(3) {
+  left: 25%;
+  top: 50%;
+  width: 80%;
+  height: 15%;
+}
+/* line 62, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(1) {
   left: 50%;
   top: 50%;
@@ -41,7 +66,7 @@
   height: 15%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
-/* line 48, sass/threelines.sass */
+/* line 69, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
@@ -49,7 +74,7 @@
   height: 0%;
   opacity: 0;
 }
-/* line 55, sass/threelines.sass */
+/* line 76, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(3) {
   left: 50%;
   top: 50%;
@@ -57,66 +82,66 @@
   height: 15%;
   transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
-/* line 63, sass/threelines.sass */
+/* line 84, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line {
   left: 50%;
   border-radius: 100%;
   width: 10%;
   height: 10%;
 }
-/* line 69, sass/threelines.sass */
+/* line 90, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(1) {
   top: 25%;
 }
-/* line 72, sass/threelines.sass */
+/* line 93, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(2) {
   top: 50%;
 }
-/* line 75, sass/threelines.sass */
+/* line 96, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(3) {
   top: 75%;
 }
-/* line 79, sass/threelines.sass */
+/* line 100, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line {
   width: 20%;
   height: 20%;
   left: 50%;
   border-radius: 100%;
 }
-/* line 85, sass/threelines.sass */
+/* line 106, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(1) {
   top: 35%;
 }
-/* line 88, sass/threelines.sass */
+/* line 109, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(2) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 94, sass/threelines.sass */
+/* line 115, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(3) {
   top: 65%;
 }
-/* line 98, sass/threelines.sass */
+/* line 119, sass/threelines.sass */
 .threelines[data-frame="dot"] .line {
   border-radius: 100%;
 }
-/* line 101, sass/threelines.sass */
+/* line 122, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(1) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 107, sass/threelines.sass */
+/* line 128, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(2) {
   top: 50%;
   left: 50%;
   width: 30%;
   height: 30%;
 }
-/* line 113, sass/threelines.sass */
+/* line 134, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(3) {
   top: 50%;
   width: 0;
