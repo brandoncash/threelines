@@ -13,52 +13,102 @@
   transform: translateX(-50%) translateY(-50%);
 }
 /* line 21, sass/threelines.sass */
+.threelines[data-frame="one-bar-horizontal"] .line:nth-child(1) {
+  left: 50%;
+  top: 25%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 28, sass/threelines.sass */
+.threelines[data-frame="one-bar-horizontal"] .line:nth-child(2) {
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: 15%;
+}
+/* line 34, sass/threelines.sass */
+.threelines[data-frame="one-bar-horizontal"] .line:nth-child(3) {
+  left: 50%;
+  top: 75%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 43, sass/threelines.sass */
 .threelines[data-frame="three-bar-horizontal"] .line:nth-child(1) {
   left: 50%;
   top: 25%;
   width: 80%;
   height: 15%;
 }
-/* line 27, sass/threelines.sass */
+/* line 49, sass/threelines.sass */
 .threelines[data-frame="three-bar-horizontal"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
   width: 80%;
   height: 15%;
 }
-/* line 33, sass/threelines.sass */
+/* line 55, sass/threelines.sass */
 .threelines[data-frame="three-bar-horizontal"] .line:nth-child(3) {
   left: 50%;
   top: 75%;
   width: 80%;
   height: 15%;
 }
-/* line 40, sass/threelines.sass */
+/* line 62, sass/threelines.sass */
 .threelines[data-frame="three-bar-vertical"] .line {
   transform: translateX(-50%) translateY(-50%) rotate(90deg);
 }
-/* line 42, sass/threelines.sass */
+/* line 64, sass/threelines.sass */
 .threelines[data-frame="three-bar-vertical"] .line:nth-child(1) {
   left: 75%;
   top: 50%;
   width: 80%;
   height: 15%;
 }
-/* line 48, sass/threelines.sass */
+/* line 70, sass/threelines.sass */
 .threelines[data-frame="three-bar-vertical"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
   width: 80%;
   height: 15%;
 }
-/* line 54, sass/threelines.sass */
+/* line 76, sass/threelines.sass */
 .threelines[data-frame="three-bar-vertical"] .line:nth-child(3) {
   left: 25%;
   top: 50%;
   width: 80%;
   height: 15%;
 }
-/* line 62, sass/threelines.sass */
+/* line 83, sass/threelines.sass */
+.threelines[data-frame="one-bar-vertical"] .line {
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+/* line 85, sass/threelines.sass */
+.threelines[data-frame="one-bar-vertical"] .line:nth-child(1) {
+  left: 75%;
+  top: 50%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 92, sass/threelines.sass */
+.threelines[data-frame="one-bar-vertical"] .line:nth-child(2) {
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: 15%;
+}
+/* line 98, sass/threelines.sass */
+.threelines[data-frame="one-bar-vertical"] .line:nth-child(3) {
+  left: 25%;
+  top: 50%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 107, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(1) {
   left: 50%;
   top: 50%;
@@ -66,7 +116,7 @@
   height: 15%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
-/* line 69, sass/threelines.sass */
+/* line 114, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
@@ -74,7 +124,7 @@
   height: 0%;
   opacity: 0;
 }
-/* line 76, sass/threelines.sass */
+/* line 121, sass/threelines.sass */
 .threelines[data-frame="close"] .line:nth-child(3) {
   left: 50%;
   top: 50%;
@@ -82,7 +132,7 @@
   height: 15%;
   transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
-/* line 85, sass/threelines.sass */
+/* line 130, sass/threelines.sass */
 .threelines[data-frame="arrow-left"] .line:nth-child(1) {
   left: 10%;
   top: 50%;
@@ -91,14 +141,14 @@
   transform: translateY(-10%) rotate(-45deg);
   transform-origin: 0% 50%;
 }
-/* line 93, sass/threelines.sass */
+/* line 138, sass/threelines.sass */
 .threelines[data-frame="arrow-left"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
   width: 70%;
   height: 15%;
 }
-/* line 99, sass/threelines.sass */
+/* line 144, sass/threelines.sass */
 .threelines[data-frame="arrow-left"] .line:nth-child(3) {
   left: 10%;
   top: 50%;
@@ -107,7 +157,7 @@
   transform: translateY(-80%) rotate(45deg);
   transform-origin: 0% 50%;
 }
-/* line 109, sass/threelines.sass */
+/* line 154, sass/threelines.sass */
 .threelines[data-frame="arrow-right"] .line:nth-child(1) {
   left: 40%;
   top: 50%;
@@ -116,14 +166,14 @@
   transform: translateY(-10%) rotate(45deg);
   transform-origin: 100% 50%;
 }
-/* line 117, sass/threelines.sass */
+/* line 162, sass/threelines.sass */
 .threelines[data-frame="arrow-right"] .line:nth-child(2) {
   left: 50%;
   top: 50%;
   width: 70%;
   height: 15%;
 }
-/* line 123, sass/threelines.sass */
+/* line 168, sass/threelines.sass */
 .threelines[data-frame="arrow-right"] .line:nth-child(3) {
   left: 40%;
   top: 50%;
@@ -132,66 +182,66 @@
   transform: translateY(-80%) rotate(-45deg);
   transform-origin: 100% 50%;
 }
-/* line 132, sass/threelines.sass */
+/* line 177, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line {
   left: 50%;
   border-radius: 100%;
   width: 10%;
   height: 10%;
 }
-/* line 138, sass/threelines.sass */
+/* line 183, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(1) {
   top: 25%;
 }
-/* line 141, sass/threelines.sass */
+/* line 186, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(2) {
   top: 50%;
 }
-/* line 144, sass/threelines.sass */
+/* line 189, sass/threelines.sass */
 .threelines[data-frame="three-dots"] .line:nth-child(3) {
   top: 75%;
 }
-/* line 148, sass/threelines.sass */
+/* line 193, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line {
   width: 20%;
   height: 20%;
   left: 50%;
   border-radius: 100%;
 }
-/* line 154, sass/threelines.sass */
+/* line 199, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(1) {
   top: 35%;
 }
-/* line 157, sass/threelines.sass */
+/* line 202, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(2) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 163, sass/threelines.sass */
+/* line 208, sass/threelines.sass */
 .threelines[data-frame="two-dots"] .line:nth-child(3) {
   top: 65%;
 }
-/* line 167, sass/threelines.sass */
+/* line 212, sass/threelines.sass */
 .threelines[data-frame="dot"] .line {
   border-radius: 100%;
 }
-/* line 170, sass/threelines.sass */
+/* line 215, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(1) {
   top: 50%;
   width: 0;
   height: 0;
   opacity: 0;
 }
-/* line 176, sass/threelines.sass */
+/* line 221, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(2) {
   top: 50%;
   left: 50%;
   width: 30%;
   height: 30%;
 }
-/* line 182, sass/threelines.sass */
+/* line 227, sass/threelines.sass */
 .threelines[data-frame="dot"] .line:nth-child(3) {
   top: 50%;
   width: 0;
