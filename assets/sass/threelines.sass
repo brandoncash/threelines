@@ -229,3 +229,47 @@ $transition-timer: cubic-bezier(0.17, 0.67, 0.83, 0.67)
 				width: 0
 				height: 0
 				opacity: 0
+
+	&[data-frame="plus"]
+		.line
+			&:nth-child(1)
+				left: 50%
+				top: 50%
+				width: 50%
+				height: 15%
+				transform: translateX(-50%) translateY(-50%) rotate(90deg)
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 50%
+				height: 15%
+
+			&:nth-child(3)
+				left: 50%
+				top: 75%
+				width: 0%
+				height: 15%
+				opacity: 0
+
+	&[data-frame="minus"]
+		.line
+			&:nth-child(1)
+				left: 50%
+				top: 50%
+				width: 0%
+				height: 15%
+				opacity: 0
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 50%
+				height: 15%
+
+			&:nth-child(3)
+				left: 50%
+				top: 75%
+				width: 0%
+				height: 15%
+				opacity: 0

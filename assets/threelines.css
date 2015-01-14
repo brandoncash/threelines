@@ -248,5 +248,51 @@
   height: 0;
   opacity: 0;
 }
+/* line 235, sass/threelines.sass */
+.threelines[data-frame="plus"] .line:nth-child(1) {
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 15%;
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+/* line 242, sass/threelines.sass */
+.threelines[data-frame="plus"] .line:nth-child(2) {
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 15%;
+}
+/* line 248, sass/threelines.sass */
+.threelines[data-frame="plus"] .line:nth-child(3) {
+  left: 50%;
+  top: 75%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 257, sass/threelines.sass */
+.threelines[data-frame="minus"] .line:nth-child(1) {
+  left: 50%;
+  top: 50%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
+/* line 264, sass/threelines.sass */
+.threelines[data-frame="minus"] .line:nth-child(2) {
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 15%;
+}
+/* line 270, sass/threelines.sass */
+.threelines[data-frame="minus"] .line:nth-child(3) {
+  left: 50%;
+  top: 75%;
+  width: 0%;
+  height: 15%;
+  opacity: 0;
+}
 
 /*@ sourceMappingURL=threelines.css.map */
