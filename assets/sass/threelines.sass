@@ -80,6 +80,54 @@ $transition-timer: cubic-bezier(0.17, 0.67, 0.83, 0.67)
 				height: 15%
 				transform: translateX(-50%) translateY(-50%) rotate(-45deg)
 
+	&[data-frame="arrow-left"]
+		.line
+			&:nth-child(1)
+				left: 10%
+				top: 50%
+				width: 50%
+				height: 15%
+				transform: translateY(-10%) rotate(-45deg)
+				transform-origin: 0% 50%
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 70%
+				height: 15%
+
+			&:nth-child(3)
+				left: 10%
+				top: 50%
+				width: 50%
+				height: 15%
+				transform: translateY(-80%) rotate(45deg)
+				transform-origin: 0% 50%
+
+	&[data-frame="arrow-right"]
+		.line
+			&:nth-child(1)
+				left: 40%
+				top: 50%
+				width: 50%
+				height: 15%
+				transform: translateY(-10%) rotate(45deg)
+				transform-origin: 100% 50%
+
+			&:nth-child(2)
+				left: 50%
+				top: 50%
+				width: 70%
+				height: 15%
+
+			&:nth-child(3)
+				left: 40%
+				top: 50%
+				width: 50%
+				height: 15%
+				transform: translateY(-80%) rotate(-45deg)
+				transform-origin: 100% 50%
+
 	&[data-frame="three-dots"]
 		.line
 			left: 50%
